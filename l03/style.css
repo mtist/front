@@ -1,0 +1,95 @@
+/*CadetBlue 
+darkseagreen
+lightcyan
+silver*/
+
+
+body {
+    background-color: silver;
+    font-family: courier, monospace;
+}
+
+iframe {
+    width: 60%;
+    margin-left: 20%;
+    height: 700px;
+}
+
+.center {
+    text-align: center;
+}
+
+.centerdiv {
+    margin: auto;
+    text-align: center;
+}
+
+.red {
+    color: silver;
+    background-color: firebrick;
+}
+
+.green {
+    color: silver;
+    background-color: darkgreen;
+}
+
+.blue{
+    color: silver;
+    background-color: mediumblue;
+}
+
+.coube{
+    width: 200px;
+    height: 200px;
+}
+
+.link{
+    display: block;
+    height: 100%;
+}
+
+.n1 {
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+.n2 {
+    margin-left: 620px;
+    margin-top: -200px;
+}
+
+.n3 {
+    margin-left: 840px;
+    margin-top: -200px;
+}
+
+.n4 {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.n5 {
+    margin-left: 620px;
+    margin-top: -200px;
+}
+
+.n6 {
+    margin-left: 840px;
+    margin-top: -200px;
+}
+
+.n7 {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.n8 {
+    margin-left: 620px;
+    margin-top: -200px;
+}
+
+.n9 {
+    margin-left: 840px;
+    margin-top: -200px;
+}
