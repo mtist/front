@@ -6,13 +6,21 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body class="element">
-    <ul class="panel">
-        <li class="st"><a href="#first"></a>1st</li>
-        <li class="nd"></li><a href="#second"></a>2nd</li>
-        <li class="rd"><a href="#third"></a>3rd</li>
-    </ul>
-    <div class="first screen" id="first">1st</div>
-    <div class="second screen" id="second">2nd</div>
-    <div class="third screen" id="third">3rd</div>
+    <div class="panel fixed">
+        <ul>
+            <li class="st">
+                <div><a href="#first">1</a></div>
+            </li>
+            <li class="nd">
+                <div><a href="#second">2</a></div>
+            </li>
+            <li class="rd">
+                <div><a href="#third">3</a></div>    
+            </li>
+        </ul>
+    </div>
+    <div class="first screen relative" id="first"><p class="absolute numb">1</p></div>
+    <div class="second screen relative" id="second"><p class="absolute numb">2</p></div>
+    <div class="third screen relative" id="third"><p class="absolute numb">3</p></div>
 </body>
 </html>

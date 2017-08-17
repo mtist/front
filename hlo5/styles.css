@@ -7,25 +7,118 @@ body {
     margin: 0px;
 }
 
-ul.panel{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    position: relative;
-    width: 100vw;
-    height: 5vh;
-    border-radius: 8px;
+.screen p {
+    text-align: center;
+    font-size: 72px;
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-shadow: 
+        -0   -2px 1px #000000,
+         0   -2px 1px #000000,
+        -0    2px 1px #000000,
+         0    2px 1px #000000,
+        -2px -0   1px #000000,
+         2px -0   1px #000000,
+        -2px  0   1px #000000,
+         2px  0   1px #000000,
+        -1px -2px 1px #000000,
+         1px -2px 1px #000000,
+        -1px  2px 1px #000000,
+         1px  2px 1px #000000,
+        -2px -1px 1px #000000,
+         2px -1px 1px #000000,
+        -2px  1px 1px #000000,
+         2px  1px 1px #000000,
+        -2px -2px 1px #000000,
+         2px -2px 1px #000000,
+        -2px  2px 1px #000000,
+         2px  2px 1px #000000,
+        -2px -2px 1px #000000,
+         2px -2px 1px #000000,
+        -2px  2px 1px #000000,
+         2px  2px 1px #000000;
 }
 
-ul.panel li{
-    display: inline;
+.panel{
+    width: 4vw;
+    height: 100vh;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    opacity: 0.5;
+    /*background-color: darkseagreen;*/
+    z-index: 99;
+    margin: 0 auto 0;
+/*    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;*/
+}
+
+.panel a {
+    text-decoration: none;
+}
+
+.panel ul {
+    top: 0;
+    left: 1vw;
+    width: 4vw;
+    padding-left: 10px;
+    padding-top: calc((100vh - 40vh - 18vh)/2);
+    list-style: none;
+    text-align: center;
+}
+
+.panel ul li { 
+    display: block;
+    /*width: 4vw;*/
+    height: 6vh;
+    /*text-align: center;*/
+}
+
+.panel ul li div {
+    width: 6vh;
+    height: 6vh;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.panel ul li div:hover {
+    width: 6vh;
+    height: 6vh;
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 0.5vw;
+    opacity: 0.5;
+}
+
+.panel ul li div a {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.fixed{
+    position: fixed;
 }
 
 .screen{
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
-    border-bottom: 1px;
-    opacity: 0.9;
+    border-bottom: 1px solid black;
 }
 
 .first{
@@ -40,24 +133,33 @@ ul.panel li{
     background-color: palevioletred;
 }
 
-.st{
-    padding-left: 33vw;
-    width: 33vw;
-}
-
-.nd{
-    width: 33vw;
-}
-.rd{
-    width: 33vw;
+.nd {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 
-/* хром, сафари */
 .element::-webkit-scrollbar { width: 0; }
+.element {
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none; 
+}
 
-/* ie 10+ */
-.element { -ms-overflow-style: none; }
+.numb {
+    text-align: center;
+    top: calc(50vh - 36px);
+}
 
-/* фф (свойство больше не работает, других способов тоже нет)*/
-.element { overflow: -moz-scrollbars-none; }
+/*a[ id= "first" ]:target ~ .panel ul li.st {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "second" ]:target ~ .panel ul li.nd {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "third" ]:target ~ .panel ul li.rd {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}*/
