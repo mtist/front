@@ -1,0 +1,63 @@
+html{
+    /*overflow: hidden;*/
+}
+
+body {
+    background-color: darkseagreen;
+    margin: 0px;
+}
+
+ul.panel{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    border-radius: 8px;
+}
+
+ul.panel li{
+    display: inline;
+}
+
+.screen{
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 1px;
+    opacity: 0.9;
+}
+
+.first{
+    background-color: wheat;
+}
+
+.second{
+    background-color: silver;
+}
+
+.third{
+    background-color: palevioletred;
+}
+
+.st{
+    padding-left: 33vw;
+    width: 33vw;
+}
+
+.nd{
+    width: 33vw;
+}
+.rd{
+    width: 33vw;
+}
+
+
+/* хром, сафари */
+.element::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.element { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.element { overflow: -moz-scrollbars-none; }
