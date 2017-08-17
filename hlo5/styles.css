@@ -146,6 +146,7 @@ body {
 }
 
 .numb {
+    margin: auto;
     text-align: center;
     top: calc(50vh - 36px);
 }

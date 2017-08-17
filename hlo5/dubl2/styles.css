@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Dinpro;
+    src: url(DINPro.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+.screen p {
+    text-align: center;
+    margin: auto;
+    font-size: 120px;
+    color: white;
+    font-family: Dinpro;
+    -webkit-text-stroke: 3px black;
+}
+
+.first {
+    background-color: #8e3774;
+}
+
+.second {
+    background-color: #494293;
+}
+
+.third {
+    background-color: #1a8458;
+}
+
+.panel {
+    position: fixed;
+    width: 4vw;
+    height: 100vh;
+    background-color: silver;
+    font-family: Dinpro;
+    z-index: 99;
+    opacity: 0;
+}
+
+.panel:hover {
+    opacity: 0.2;
+}
+
+.panel a {
+    text-decoration: none;
+}
+
+.panel ul {
+    margin-top: 2vh;
+    top: 0;
+    left: 0;
+    width: 4vw;
+    list-style: none;
+    text-align: center;
+}
+
+.panel ul li { 
+    display: block;
+    height: 4vh;
+}
+
+.panel ul li div {
+    width: 4vh;
+    height: 4vh;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.panel ul li div:hover {
+    width: 5vh;
+    height: 5vh;
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 0.5vw;
+    margin-top: -2vh;
+    opacity: 0.9;
+}
+
+.panel ul li div a {
+    display: block;
+    height: 100%;
+    color: white;
+}
+
+.numb {
+    padding-top: calc(50vh - 60px);
+}
+
+.hiddescroll::-webkit-scrollbar { width: 0; }
+.hiddescroll {
+    overflow: -moz-scrollbars-none; 
+    -ms-overflow-style: none;
+}
+
+.n4 { background-color: #5d605f; }
+.n5 { background-color: #2d4c99; }
+.n6 { background-color: #c4903c; }
+.n7 { background-color: #1e1d1e; }
+.n8 { background-color: #c43e3e; }
+.n9 { background-color: #7b3fa3; }
+.n10 { background-color: #c6bcc6; }
+.n11 { background-color: #3d343d; }
+.n12 { background-color: #af9f3f; }
+.n13 { background-color: #39435b; }
+.n14 { background-color: #933f76; }
+.n15 { background-color: #5096a8; }
+.n16 { background-color: #40395b; }
+.n17 { background-color: #873636; }
+.n18 { background-color: #57a9aa; }
+.n19 { background-color: #752475; }
+.n20 { background-color: #698e61; }
+.n21 { background-color: #562323; }
+.n22 { background-color: #8e6161; }
+.n23 { background-color: #230935; }
+.n24 { background-color: #112c33; }
