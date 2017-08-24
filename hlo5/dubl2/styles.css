@@ -65,12 +65,13 @@ p {
     left: 0;
     width: 4vw;
     list-style: none;
-    text-align: center;
+    text-align: left;
 }
 
 .panel ul li { 
     display: block;
     height: 4vh;
+    text-align: left;
 }
 
 .panel ul li div {
@@ -78,6 +79,7 @@ p {
     height: 4vh;
     background-color: black;
     border: 2px solid white;
+    text-align: left;
 }
 
 .panel ul li div:hover {
@@ -85,15 +87,18 @@ p {
     height: 5vh;
     background-color: black;
     border: 2px solid white;
+    border-radius: 5px;
     margin-left: 0.5vw;
     margin-top: -2vh;
     opacity: 0.9;
+    text-align: left;
 }
 
 .panel ul li div a {
     display: block;
     height: 100%;
     color: white;
+    text-align: left;
 }
 
 .numb {
@@ -106,12 +111,12 @@ p {
     -ms-overflow-style: none;
 }
 
-.n4 { background-color: #5d605f; }
-.n5 { background-color: #2d4c99; }
-.n6 { background-color: #c4903c; }
-.n7 { background-color: #1e1d1e; }
-.n8 { background-color: #c43e3e; }
-.n9 { background-color: #7b3fa3; }
+.n4  { background-color: #5d605f; }
+.n5  { background-color: #2d4c99; }
+.n6  { background-color: #c4903c; }
+.n7  { background-color: #1e1d1e; }
+.n8  { background-color: #c43e3e; }
+.n9  { background-color: #7b3fa3; }
 .n10 { background-color: #c6bcc6; }
 .n11 { background-color: #3d343d; }
 .n12 { background-color: #af9f3f; }
